@@ -3,7 +3,7 @@ import config from './config.json'
 import { MessagingClient } from '@botpress/messaging-client'
 import express from 'express'
 
-// we setup an express server to receive webhooks
+// we set up an express server to receive webhooks
 const app = express()
 app.use(express.json())
 
