@@ -46,7 +46,7 @@ discord.on('messageCreate', async (message) => {
 // adds an event listener for message webhooks
 messaging.on('message', async ({ message }) => {
   if (message.authorId) {
-    // we ingore user messages
+    // we ignore user messages
     return
   }
 
